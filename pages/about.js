@@ -1,9 +1,11 @@
 import React from 'react';
+import Meta from '../components/Meta';
 
 const about = () => {
   return (
     <div>
-      <h1>about</h1>
+      <Meta title="About" />
+      <h1>About</h1>
     </div>
   );
 };
